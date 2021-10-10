@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GiftGrid debe mostrar el componente correctamente 1`] = `
+<Fragment>
+  <h3>
+    One peace
+  </h3>
+  <h1>
+    Loading
+  </h1>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
