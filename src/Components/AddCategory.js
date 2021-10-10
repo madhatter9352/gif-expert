@@ -20,19 +20,22 @@ const AddCategory = ({setCateg}) => {
 
     return (
         <form onSubmit = { handleSubmit }>
-            <div>
-                <input 
-                    type = "text"
-                    value = { inputValue }
-                    onChange = { handleInputValue }
-                />
-            </div>
+            <p>{inputValue}</p>
+            <input 
+                type = "text"
+                value = { inputValue }
+                onChange = { handleInputValue }
+            />
         </form>
     )
 }
 
 AddCategory.propTypes = {
     setCateg: PropTypes.func.isRequired 
+}
+
+AddCategory.propTypes = {
+    setCateg: PropTypes.func.isRequired
 }
 
 export default AddCategory
